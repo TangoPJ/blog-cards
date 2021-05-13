@@ -1,0 +1,145 @@
+/*---
+Fonts:
+	font-family: 'Inter', sans-serif;
+	font-family: 'Poppins', sans-serif;
+---*/
+
+/* main styles */
+html, body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter', sans-serif;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+span {
+	display: inline-block;
+}
+
+.container {
+	max-width: 1240px;
+	margin: auto;
+}
+
+.cards {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	gap: 20px;
+	align-items: stretch;
+	padding: 10px 0;
+}
+
+.wrap-card {
+  width: calc((100% - 40px)/3);
+  margin: 0 0 10px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 0 10px;
+}
+
+.photo {
+	width: 100%;
+	height: 220px;
+}
+
+.exmpl {
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 16px;
+}
+
+.exmpl img {
+	width: 100%;
+}
+
+.main-text {
+	font-weight: 600;
+	font-size: 21.25px;
+	letter-spacing: -2%;
+	line-height: 27.62px;
+	font-style: normal;
+	margin-bottom: 8px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.text-content {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	letter-spacing: -3.5%;
+	margin-bottom: 20px;
+}
+
+.social-data {
+	display: flex;
+	align-items: center;
+	margin-bottom: 26px;
+}
+
+.date {
+	font-family: 'Inter', sans-serif;
+	margin-right: 24px;
+	font-size: 12px;
+	color: #A0A0A1;
+	font-weight: 400;
+}
+
+.sphere {
+	font-family: 'Inter', sans-serif;
+	padding: 4px 16px;
+	background: #F4F4F4;
+	border-radius: 2px;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.user {
+	display: flex;
+	align-items: flex-start;
+}
+
+.avatar {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 9px;
+	background-image: url('https://i.pravatar.cc/36');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.fullname {
+	font-size: 13px;
+	line-height: 21.58px;
+	letter-spacing: -0.02em;
+	color: #252528;
+}
+
+.profession {
+	font-size: 13px;
+	letter-spacing: -0.02em;
+	color: #707072;
+	line-height: 21,58px;
+}

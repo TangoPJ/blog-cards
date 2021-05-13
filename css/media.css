@@ -1,0 +1,11 @@
+@media (max-width: 980px) {
+	.wrap-card {
+		width: calc((100% - 20px)/2);
+	}
+}
+
+@media (max-width: 768px) {
+	.wrap-card {
+		width: 100%;
+	}
+}
